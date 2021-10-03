@@ -1,0 +1,5 @@
+numpy==1.21.2
+imageio==2.9.0
+streamlit==0.88.0
+matplotlib==3.4.3
+pandas==1.3.2
