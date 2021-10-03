@@ -174,6 +174,7 @@ def main():
 
     st.title("Linear Regression ")
     st.write("""
+    [![Github Repo](https://img.shields.io/badge/Github%20Repo-%20-lightgrey)](https://github.com/shubhayu-64/Linear_regression_webapp)
     [![Follow](https://img.shields.io/twitter/follow/shubhayu64?style=social)](https://twitter.com/shubhayu64)
     &nbsp[![Github](https://img.shields.io/github/followers/shubhayu-64?style=social)](https://github.com/shubhayu-64)
     &nbsp[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/shubhayu64)
@@ -184,6 +185,10 @@ def main():
     This model uses __Adaptive Epochs__ over __Gradient Descent Algorithm__ based on the learning rate limit. 
 
     Enter your choices on the sidebar. 
+
+    Check Github repo for more
+
+    ![Github Repo](https://cdn4.iconfinder.com/data/icons/socialcones/508/Github-128.png) 
 
     ##### PS. It may get boring at times but it works.
     ***
