@@ -184,11 +184,7 @@ def main():
 
     This model uses __Adaptive Epochs__ over __Gradient Descent Algorithm__ based on the learning rate limit. 
 
-    Enter your choices on the sidebar. 
-
-    Check Github repo for more
-
-    ![Github Repo](https://cdn4.iconfinder.com/data/icons/socialcones/508/Github-128.png) 
+    Enter your choices on the sidebar.  
 
     ##### PS. It may get boring at times but it works.
     ***
