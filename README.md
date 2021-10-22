@@ -22,7 +22,7 @@ Linear Regression Web App is an implementaion of linear regression in python fro
 git clone https://github.com/shubhayu-64/Linear_regression_webapp.git
 ```
 2. Move to the directory ```cd Linear_regression_webapp```
-3. Use pip to install requirements.
+3. Use pip to install the required dependencies.
 ```
 pip install -r requirements.txt
 ```
