@@ -166,6 +166,9 @@ def prep_dataset(dataset):
 
 
 def main():
+    """
+    Builds the entire Streamlit GUI. 
+    """
     # ----------------------------- Formatting --------------------------------
     st.set_page_config(page_title="Linear Regression",
                        page_icon="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/twitter/259/mage_1f9d9.png")
