@@ -8,6 +8,9 @@ import shutil
 
 
 def generate(slope, intercept):
+    """
+    Generates data with slope and intercept and populates dataset.csv
+    """
     data_points, randomness = 200, 30
     x_data = np.linspace(0, 400, data_points)
     rand = np.random.randint(-randomness, randomness, size=data_points)
