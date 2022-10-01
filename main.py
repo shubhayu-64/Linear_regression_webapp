@@ -10,6 +10,8 @@ import shutil
 def generate(slope, intercept):
     """
     Generates data with slope and intercept and populates dataset.csv
+    
+    Genartaes data nearby slope and intercept. creates 400 data points.
     """
     data_points, randomness = 200, 30
     x_data = np.linspace(0, 400, data_points)
