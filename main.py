@@ -25,6 +25,9 @@ def generate(slope, intercept):
 
 
 def gif(df, x, y, m, c):
+    """
+    generates GIF with the moving prediction based on predictions and original line. 
+    """
     os.makedirs("gif")
     filenames = []
     prog = 0.0
