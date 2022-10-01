@@ -89,12 +89,12 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # x = [1, 2, 3, 4, 5]
-    # y = [2, 4, 6, 8, 10]
-    # plt.plot(x, y)
+    x = [1, 2, 3, 4, 5]
+    y = [2, 4, 6, 8, 10]
+    plt.plot(x, y)
 
-    # plt.xlabel("X-Axis")
-    # plt.ylabel("Y-Axis")
-    # plt.title("Linear Regression")
-    # plt.grid(True)
-    # plt.show()
+    plt.xlabel("X-Axis")
+    plt.ylabel("Y-Axis")
+    plt.title("Linear Regression")
+    plt.grid(True)
+    plt.show()
