@@ -9,9 +9,9 @@ import shutil
 
 def generate(slope, intercept):
     """
-    Generates data with slope and intercept and populates dataset.csv
+    Generates data with gradient and intercept and fills dataset.csv.
     
-    Genartaes data nearby slope and intercept. creates 400 data points.
+    Genartaes data nearby slope and intercept & creates 400 data points.
     """
     data_points, randomness = 200, 30
     x_data = np.linspace(0, 400, data_points)
@@ -26,7 +26,8 @@ def generate(slope, intercept):
 
 def gif(df, x, y, m, c):
     """
-    generates GIF with the moving prediction based on predictions and original line. 
+    Generates GIF with the moving prediction based on predictions and original line. 
+    
     """
     os.makedirs("gif")
     filenames = []
@@ -168,6 +169,7 @@ def prep_dataset(dataset):
 def main():
     """
     Builds the entire Streamlit GUI. 
+    
     """
     # ----------------------------- Formatting --------------------------------
     st.set_page_config(page_title="Linear Regression",
@@ -190,8 +192,8 @@ def main():
     &nbsp[![Github](https://img.shields.io/github/followers/shubhayu-64?style=social)](https://github.com/shubhayu-64)
     &nbsp[![Buy me a coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee--yellow.svg?logo=buy-me-a-coffee&logoColor=orange&style=social)](https://www.buymeacoffee.com/shubhayu64)
 
-    Linear regression in Python with a generated dataset.
-    The dataset contains 200 data distributed evenly. Vary the slope and intercept for generated data to play around.
+    Linear regression in Python with a built-in dataset.
+    The dataset contains 200 data distributed evenly. Vary the slope and intercept in order to play with the generated data.
 
     This model uses __Adaptive Epochs__ over __Gradient Descent Algorithm__ based on the learning rate limit. 
 
